@@ -16,5 +16,6 @@ namespace WebApiM3.Context
         }
 
         public DbSet<Autor> Autores { get; set; }
+        public DbSet<Libro> Libros { get; set; }
     }
 }
